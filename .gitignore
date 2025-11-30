@@ -1,1 +1,8 @@
 .vs
+
+SubscriptionReconciler/bin
+SubscriptionReconciler/obj
+
+SubscriptionReconciler.Test/bin
+SubscriptionReconciler.Test/obj
+

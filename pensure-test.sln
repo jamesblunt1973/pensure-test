@@ -9,7 +9,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionReconciler", "SubscriptionReconciler\SubscriptionReconciler.csproj", "{EF58BD83-BA44-4C43-83BB-D01DCEE1D725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionReconciler.Test", "SubscriptionReconciler.Test\SubscriptionReconciler.Test.csproj", "{64F9641F-4FA9-438F-A0F8-71EEDE817EAD}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF58BD83-BA44-4C43-83BB-D01DCEE1D725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF58BD83-BA44-4C43-83BB-D01DCEE1D725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF58BD83-BA44-4C43-83BB-D01DCEE1D725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF58BD83-BA44-4C43-83BB-D01DCEE1D725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F9641F-4FA9-438F-A0F8-71EEDE817EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F9641F-4FA9-438F-A0F8-71EEDE817EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F9641F-4FA9-438F-A0F8-71EEDE817EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F9641F-4FA9-438F-A0F8-71EEDE817EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
