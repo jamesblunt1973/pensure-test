@@ -11,7 +11,7 @@ The Subscription Reconciler is a service designed to calculate invoice amounts f
 1. Set the `SubscriptionReconciler` project as the startup project.
 1. Press F5 to run the application locally and see a sample invoice in the console.
 
-Design decisions
+## Design decisions
 - Separation of Concerns: The design separates **models**, **application** (business logic), and **presentation** to enhance maintainability and testability.
 - The SubscriptionReconcilerService calss has a default constructor to facilitate easy instantiation and allow dependency injection for testing purposes.
  <br>(in real scenario, the user initial plan is being loaded from database)
